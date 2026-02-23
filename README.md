@@ -58,11 +58,12 @@ personal_website/
    ```
 
 ### 5. **Add CV Download**
-   - Save your CV as a PDF file (e.g., `cv.pdf`)
-   - Update the button in the sidebar:
-     ```html
-     <a href="cv.pdf" download="YourName_CV.pdf" class="cv-button">Download CV</a>
-     ```
+    - Save your CV as a PDF file using this exact filename:
+       `Srikamakshi Mahesh - CMU - MSISPM.pdf`
+    - Update the button in the sidebar (already set in the HTML files):
+       ```html
+       <a href="Srikamakshi Mahesh - CMU - MSISPM.pdf" download="Srikamakshi Mahesh - CMU - MSISPM.pdf" class="cv-button">Download CV</a>
+       ```
 
 ## 🚀 GitHub Pages Deployment
 

@@ -34,8 +34,5 @@ window.addEventListener('scroll', () => {
     });
 });
 
-// CV Button functionality
-document.querySelector('.cv-button').addEventListener('click', function() {
-    // You can replace this with actual CV download functionality
-    alert('CV download functionality can be added here by linking to your CV file.');
-});
+// CV downloads are handled by the anchor `download` attribute on `.cv-button`.
+// If you'd like analytics tracking for downloads, we can add an event listener here.
